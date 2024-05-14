@@ -1,0 +1,132 @@
+@font-face {
+  font-family: contFont;
+  src: url(contb.ttf);
+}
+
+body {
+	/*background-color: rgb(232,232,232);*/
+  background: repeating-linear-gradient(
+  rgb(232,232,232) 0px,
+  rgb(232,232,232) 7px,
+  rgb(245,245,245) 7px,
+  rgb(245,245,245) 9px
+  );
+  font-family: contFont;
+	text-align: center;
+  margin:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ec7036;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+li {
+  float: right;
+  font-size: 40px;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #a6a6a6;
+}
+
+.active {
+  background-color: #828282;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+  position: relative;
+}
+
+.row .column {
+  flex: 49%;
+  padding: 5px;
+  position: relative;
+}
+
+figcaption {
+  font-size:2.5em;
+  letter-spacing: 2px;
+  color: rgb(140,140,140);
+}
+
+.progDesc {
+  text-align: middle;
+  font-size: 3em;
+  letter-spacing: 2px;
+  color: rgb(140,140,140);
+}
+
+.thumb {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(180,180,180);
+  border-radius: 10%;
+  width: calc(100% - (50px * 2));
+  margin: 30px 50px;
+}
+
+.effect {
+  position: absolute;
+  opacity: 0.25;
+  width: calc(100% - (54.6px * 2));
+  border-radius: 9.2%;
+}
+
+.emph {
+  color: #ec7036
+}
+
+p {
+	text-align: center;
+}
+
+
+h1 {
+	font-family: contFont;
+	color: rgb(140,140,140);
+}
+
+
+form {
+  background-color: #c9c9c9;
+  padding: 15px;
+  margin: 40px;
+  font-size:25px;
+  color: #828282;
+  border-radius: 3%;
+}
+
+.formDiv {
+  width: 50%;
+  border: 4px solid green;
+  padding: 10px;
+  margin: auto;
+}
