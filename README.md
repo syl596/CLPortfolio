@@ -2,6 +2,8 @@
 
 The project can be accessed [here](https://syl596.github.io/CLPortfolio/).
 
+Note: Images and effects may take a bit of time to load. Google Chrome is recommended for an optimal experience.
+
 ## Project Description:
 
 Channel Sylph is a portfolio website built around the fictional concept of an eponymous television channel (network). The showcased projects are framed as “programs” by Channel Sylph and can all be accessed through the website. The concept of Channel Sylph is driven home through the overall content and aesthetic of the website, which all builds and portrays the philosophy and personality of the channel (this is most notable in the text of the About page). Through this *fictional* concept, visitors can get an idea of what the *actual* individual behind the website might be like. Channel Sylph is both a functional portfolio website and a creative realization of a fictional concept. 
